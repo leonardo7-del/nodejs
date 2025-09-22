@@ -1,0 +1,42 @@
+.about-page {
+  padding: 20px 0;
+}
+
+.about-header {
+  background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: var(--border-radius);
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.about-section p {
+  line-height: 1.8;
+}
