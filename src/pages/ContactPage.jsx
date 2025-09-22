@@ -39,25 +39,37 @@ const ContactPage = () => {
       
       <div className="contact-container">
         <div className="contact-info">
-          <div className="info-item">
-            <h3>Dirección</h3>
-            <p>Calle Tecnología 123, Ciudad Digital</p>
+          <div className="info-item card">
+            <div className="info-icon"><i className="fas fa-map-marker-alt" /></div>
+            <div className="info-content">
+              <h3>Dirección</h3>
+              <p>Calle Tecnología 123, Ciudad Digital</p>
+            </div>
           </div>
           
-          <div className="info-item">
-            <h3>Teléfono</h3>
-            <p>+34 123 456 789</p>
+          <div className="info-item card">
+            <div className="info-icon"><i className="fas fa-phone" /></div>
+            <div className="info-content">
+              <h3>Teléfono</h3>
+              <p>+34 123 456 789</p>
+            </div>
           </div>
           
-          <div className="info-item">
-            <h3>Email</h3>
-            <p>info@techstore.com</p>
+          <div className="info-item card">
+            <div className="info-icon"><i className="fas fa-envelope" /></div>
+            <div className="info-content">
+              <h3>Email</h3>
+              <p>info@techstore.com</p>
+            </div>
           </div>
           
-          <div className="info-item">
-            <h3>Horario</h3>
-            <p>Lunes a Viernes: 9:00 - 20:00</p>
-            <p>Sábados: 10:00 - 14:00</p>
+          <div className="info-item card">
+            <div className="info-icon"><i className="fas fa-clock" /></div>
+            <div className="info-content">
+              <h3>Horario</h3>
+              <p>Lunes a Viernes: 9:00 - 20:00</p>
+              <p>Sábados: 10:00 - 14:00</p>
+            </div>
           </div>
         </div>
         
